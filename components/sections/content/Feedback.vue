@@ -15,7 +15,7 @@
           <v-card variant="text" class="feedback-card">
             <v-card-text class="font-italic">"{{ feedback.desc }}"</v-card-text>
             <div class="mt-3 d-flex align-center ml-4">
-              <v-avatar :image="publicAsset(`/images/team/${feedback.img}`)" size="50"></v-avatar>
+              <v-avatar :image="publicAsset(`images/team/${feedback.img}`)" size="50"></v-avatar>
               <h3 class="font-weight-bold ml-3">{{ feedback.name }}</h3>
             </div>
           </v-card>

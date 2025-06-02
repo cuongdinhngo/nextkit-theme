@@ -26,7 +26,7 @@
             <div class="d-flex flex-column flex-sm-row">
               <v-col cols="12" sm="3" class="pa-2">
                 <img
-                  :src="`/images/feature/${item.img}`"
+                  :src="publicAsset(`images/feature/${item.img}`)"
                   alt="Feature 2"
                   class="img-fluid rounded-lg"
                 />

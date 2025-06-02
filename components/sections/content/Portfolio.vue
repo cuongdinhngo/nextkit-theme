@@ -13,7 +13,7 @@
         <v-col cols="12" md="4" sm="6" v-for="(project, index) in portfolio" :key="index">
           <v-card class="pb-4" elevation="0">
             <div class="portfolio-img-wrapper">
-              <v-img :src="publicAsset(`/images/portfolio/${project.img}`)" class="portfolio-img"></v-img>
+              <v-img :src="publicAsset(`images/portfolio/${project.img}`)" class="portfolio-img"></v-img>
             </div>
             <v-card-title>{{ project.title }}</v-card-title>
             <v-card-subtitle>{{ project.subtext }}</v-card-subtitle>
