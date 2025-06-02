@@ -12,7 +12,7 @@
       <v-row class="blog-row">
         <v-col cols="12" md="4" sm="6" v-for="(post, index) in blogPosts" :key="index">
           <v-card variant="text" class="blog-card position-relative">
-            <v-img :src="`/images/blog/${post.img}`" height="240px"></v-img>
+            <v-img :src="publicAsset(`/images/blog/${post.img}`)" height="240px"></v-img>
             <p class="createdAt">{{ post.createdAt }}</p>
             <v-card-text>
               <h3 class="font-weight-bold">{{ post.title }}</h3>
