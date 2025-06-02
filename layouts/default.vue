@@ -4,6 +4,7 @@
     <v-main class="main-container">
       <slot />
     </v-main>
+    <SectionsFooter />
   </v-app>
 </template>
 <script setup lang="ts">
