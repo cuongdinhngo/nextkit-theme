@@ -9,8 +9,8 @@
           </p>
         </v-col>
       </v-row>
-      <v-row>
-        <v-col cols="12" md="4" v-for="(plan, index) in pricePlan" :key="index">
+      <v-row class="pricing-row">
+        <v-col cols="12" md="4" sm="6" v-for="(plan, index) in pricePlan" :key="index">
           <div class="text-center">
             <v-card class="price-card px-10 py-5" elevation="1" variant="plain">
               <v-card-title class="px-2">{{ plan.title }}</v-card-title>
@@ -59,6 +59,14 @@ import { pricePlan } from '@/config/data';
     border-top-right-radius: 0;
     height: auto !important;
     padding: 20px 0 !important;
+  }
+}
+.pricing-row {
+  justify-content: center;
+}
+@media (min-width: 600px) and (max-width: 959px) {
+  .pricing-row .v-col:nth-child(3):nth-last-child(1) {
+    margin: 0 auto;
   }
 }
 </style>

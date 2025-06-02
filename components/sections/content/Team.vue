@@ -10,7 +10,7 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="12" md="3" v-for="(member, index) in teamMembers" :key="index">
+        <v-col cols="12" sm="6" md="3" v-for="(member, index) in teamMembers" :key="index">
           <v-card class="" elevation="0">
             <div class="team-img-wrapper social-overlay">
               <v-img :src="`/images/team/${member.img}`" class="team-img">

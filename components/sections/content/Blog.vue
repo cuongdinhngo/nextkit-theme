@@ -9,8 +9,8 @@
           </p>
         </v-col>
       </v-row>
-      <v-row>
-        <v-col cols="12" md="4" v-for="(post, index) in blogPosts" :key="index">
+      <v-row class="blog-row">
+        <v-col cols="12" md="4" sm="6" v-for="(post, index) in blogPosts" :key="index">
           <v-card variant="text" class="blog-card position-relative">
             <v-img :src="`/images/blog/${post.img}`" height="240px"></v-img>
             <p class="createdAt">{{ post.createdAt }}</p>
@@ -40,6 +40,14 @@ import { blogPosts } from '@/config/data';
   max-width: 1170px !important;
   width: 100%;
   margin: 0 auto;
+}
+.blog-row {
+  justify-content: center;
+}
+@media (min-width: 600px) and (max-width: 959px) {
+  .blog-row .v-col:nth-child(3):nth-last-child(1) {
+    margin: 0 auto;
+  }
 }
 .blog-card {
   .v-card-text {
