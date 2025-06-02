@@ -1,0 +1,80 @@
+.header-bar {
+  background: rgba(96, 125, 249, 1) !important;
+  height: 65px !important;
+}
+
+.custom-container {
+  max-width: 1170px !important;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo-section {
+  color: white;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 20px;
+  color: #6366f1;
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.nav-list {
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 1) !important;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.btn-link {
+  background: white !important;
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;
+  margin: 8px 16px !important;
+  padding: 10px 25px !important;
+	color: #000000 !important;
+}
+.btn-link:hover {
+	color: #000000 !important;
+}
+
+.drawer-btn-link {
+	padding: 10px !important;
+	text-align: center !important;
+	color: #ddd !important;
+	background: rgba(255, 77, 126, 1) !important;
+	border-radius: 8px !important;
+	transition: all 0.3s ease !important;
+}

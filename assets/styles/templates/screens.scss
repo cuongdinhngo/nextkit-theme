@@ -1,0 +1,32 @@
+// Extra small devices (phones, less than 576px)
+@media (max-width: 576px){
+  .btn-100 {
+    width: 100% !important;
+  }
+}
+
+// Small devices (landscape phones, less than 767px)
+@media (max-width: 767px) {
+  .banner-title {
+    font-size: 29px !important;
+    line-height: 40px !important;
+  }
+  .ui-title {
+    font-size: 29px !important;
+  }
+  .feature-action-btn {
+    padding: 12px 20px !important;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px){
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1200px){
+}
+
+// Extra large devices (large desktops, less than 1400px)
+@media (max-width: 1400px){
+}

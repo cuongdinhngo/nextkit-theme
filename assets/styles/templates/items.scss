@@ -1,0 +1,31 @@
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.v-navigation-drawer {
+  margin-top: -64px !important;
+  height: 110vh !important;
+  z-index: 2000 !important;
+}
+
+.feature-wrapper {
+  padding: 45px 0;
+  background-color: rgb(244, 248, 250);
+}
+
+.feature-container {
+  max-width: 1170px !important;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 20px 0px 15px;
+}
