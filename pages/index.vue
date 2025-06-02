@@ -7,4 +7,9 @@
   <SectionsFeatureFirst />
   <SectionsFeatureSecond />
   <SectionsFeatureThird />
+  <SectionsContentPortfolio />
+  <SectionsContentPricing />
+  <SectionsContentTeam />
+  <SectionsContentFeedback />
+  <SectionsContentBlog />
 </template>
